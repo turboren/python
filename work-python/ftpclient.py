@@ -71,7 +71,7 @@ while True:
 								print '%s/%s \t\033[32mfile_done\033[m' %(serverdir,serverfile)
 
 			elif cmd.split()[0] == 'send':
-			
+ 			
 				if cmd == 'send':continue
 				for i in cmd.split()[1:]:
 					if not os.path.exists(i):
